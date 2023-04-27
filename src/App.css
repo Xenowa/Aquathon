@@ -1,0 +1,17 @@
+:root {
+  --primary: #000e21;
+  --primary-light: #014eb8;
+  --Secondary: #33c9fc;
+  --Secondary-light: #e8f9ff;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "poppins", sans-serif;
+  margin: 0;
+  background: var(--primary);
+  color: #ffffff;
+}
