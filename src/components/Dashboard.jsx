@@ -39,7 +39,7 @@ export default function Dashboard() {
             >
                 AQUATHON
             </Typography>
-            <List>
+            <List disablePadding>
                 <ListItem>
                     <ListItemButton>
                         <ListItemIcon>
@@ -54,7 +54,7 @@ export default function Dashboard() {
 
                 <Divider />
             </List>
-            <List>
+            <List disablePadding>
                 <ListItem>
                     <ListItemButton>
                         <ListItemIcon>
@@ -69,7 +69,7 @@ export default function Dashboard() {
 
                 <Divider />
             </List>
-            <List>
+            <List disablePadding>
                 <ListItem>
                     <ListItemButton>
                         <ListItemIcon>
@@ -84,7 +84,7 @@ export default function Dashboard() {
 
                 <Divider />
             </List>
-            <List>
+            <List disablePadding>
                 <ListItem>
                     <ListItemButton>
                         <ListItemIcon>
@@ -99,7 +99,7 @@ export default function Dashboard() {
 
                 <Divider />
             </List>
-            <List>
+            <List disablePadding>
                 <ListItem>
                     <ListItemButton>
                         <ListItemIcon>
@@ -114,7 +114,7 @@ export default function Dashboard() {
 
                 <Divider />
             </List>
-            <List>
+            <List disablePadding>
                 <ListItem>
                     <ListItemButton>
                         <ListItemIcon>
@@ -129,7 +129,7 @@ export default function Dashboard() {
 
                 <Divider />
             </List>
-            <List>
+            <List disablePadding>
                 <ListItem>
                     <ListItemButton>
                         <ListItemIcon>
@@ -144,7 +144,7 @@ export default function Dashboard() {
 
                 <Divider />
             </List>
-            <List>
+            <List disablePadding>
                 <ListItem>
                     <ListItemButton>
                         <ListItemIcon>
@@ -157,11 +157,11 @@ export default function Dashboard() {
                     </ListItemButton>
                 </ListItem>
             </List>
-            <Box sx={{ display: "flex", flexDirection: "column", alignItems: "center", gap: "0.5rem" }}>
+            <Box sx={{ display: "flex", flexDirection: "column", alignItems: "center" }}>
                 <img
                     src={AquathonDarkIcon}
                     alt="Aquathon Logo"
-                    style={{ maxWidth: "10rem", objectFit: "cover" }}
+                    style={{ width: "8rem", objectFit: "cover" }}
                 />
                 <Typography variant="p" component="p">IEEE IIT ©️ 2023</Typography>
             </Box>
@@ -174,22 +174,17 @@ export default function Dashboard() {
             sx={{
                 width: {
                     sm: drawerWidth
-                },
-                flexShrink: {
-                    sm: 0
                 }
             }}
         >
             {/* Menu Icon */}
-            <Toolbar>
-                <IconButton
-                    color="secondary"
-                    onClick={handleDrawerToggle}
-                    sx={{ mr: 2, display: { sm: 'none' }, position: "fixed" }}
-                >
-                    <MenuIcon fontSize="large" />
-                </IconButton>
-            </Toolbar>
+            <IconButton
+                color="secondary"
+                onClick={handleDrawerToggle}
+                sx={{ display: { sm: 'none' }, position: "fixed" }}
+            >
+                <MenuIcon fontSize="large" />
+            </IconButton>
 
             {/* Mobile Drawer */}
             <Drawer

@@ -13,11 +13,12 @@ export default function Home() {
         }} id="home">
             <img
                 src={AquathonLightIcon} alt="Logo"
-                style={{ width: "30rem", height: "22rem", objectFit: "cover" }}
+                style={{ maxwidth: "30rem", maxHeight: "22rem", objectFit: "cover" }}
             />
             <Typography
                 component="h1"
                 variant="h1"
+                textAlign="center"
             >
                 Coding is the new norm
             </Typography>
