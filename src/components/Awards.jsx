@@ -10,7 +10,9 @@ export default function Awards() {
             alignItems: "center",
             gap: "1rem"
         }} id="awards">
-            <Typography component="h1" variant="h1">Awards</Typography>
+            <Typography color="primaryLight.main" component="h1" variant="h1" fontWeight="bold" marginTop="1rem">
+                Awards
+            </Typography>
         </Box>
     )
 }

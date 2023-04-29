@@ -10,7 +10,9 @@ export default function Partners() {
             alignItems: "center",
             gap: "1rem"
         }} id="partners" bgcolor="secondaryLight.main" color="primary.main">
-            <Typography component="h1" variant="h1">Partners</Typography>
+            <Typography color="primary" component="h1" variant="h1" fontWeight="bold" marginTop="1rem">
+                Official <Typography color="primaryLight.main" component="span" variant="span">Sponsors</Typography>
+            </Typography>
         </Box>
     )
 }

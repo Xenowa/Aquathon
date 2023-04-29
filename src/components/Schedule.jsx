@@ -10,7 +10,9 @@ export default function Schedule() {
             alignItems: "center",
             gap: "1rem"
         }} id="schedule" bgcolor="secondaryLight.main" color="primary.main">
-            <Typography component="h1" variant="h1">Schedule</Typography>
+            <Typography color="primaryLight.main" component="h1" variant="h1" fontWeight="bold" marginTop="1rem">
+                Schedule
+            </Typography>
         </Box>
     )
 }

@@ -7,7 +7,6 @@ import ListItem from '@mui/material/ListItem';
 import ListItemButton from '@mui/material/ListItemButton';
 import ListItemIcon from '@mui/material/ListItemIcon';
 import MenuIcon from '@mui/icons-material/Menu';
-import Toolbar from '@mui/material/Toolbar';
 import Typography from '@mui/material/Typography';
 import { useState } from "react"
 import { Link } from '@mui/material';
@@ -181,7 +180,13 @@ export default function Dashboard() {
             <IconButton
                 color="secondary"
                 onClick={handleDrawerToggle}
-                sx={{ display: { sm: 'none' }, position: "fixed" }}
+                sx={{
+                    display: {
+                        sm: 'none'
+                    },
+                    position: "fixed",
+                    margin: "1rem"
+                }}
             >
                 <MenuIcon fontSize="large" />
             </IconButton>

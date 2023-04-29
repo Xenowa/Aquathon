@@ -37,16 +37,16 @@ const darkTheme = createTheme({
       fontSize: "24px"
     },
     h4: {
-      fontSize: "18px"
+      fontSize: "20px"
     },
     h5: {
-      fontSize: "15px"
+      fontSize: "18px"
     },
     h6: {
-      fontSize: "12px"
+      fontSize: "16px"
     },
     p: {
-      fontSize: "12px"
+      fontSize: "16px"
     },
   },
 

@@ -19,6 +19,7 @@ export default function Home() {
                 component="h1"
                 variant="h1"
                 textAlign="center"
+                fontWeight="bold"
             >
                 Coding is the new norm
             </Typography>

@@ -10,7 +10,9 @@ export default function Contact() {
             alignItems: "center",
             gap: "1rem"
         }} id="contact" bgcolor="secondaryLight.main" color="primary.main">
-            <Typography component="h1" variant="h1">Contact</Typography>
+            <Typography color="primary" component="h1" variant="h1" fontWeight="bold" marginTop="1rem">
+                Contact <Typography color="primaryLight.main" component="span" variant="span">Us</Typography>
+            </Typography>
         </Box>
     )
 }

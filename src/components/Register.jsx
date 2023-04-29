@@ -10,7 +10,9 @@ export default function Register() {
             alignItems: "center",
             gap: "1rem"
         }} id="register">
-            <Typography component="h1" variant="h1">Register</Typography>
+            <Typography color="primaryLight.main" component="h1" variant="h1" fontWeight="bold" marginTop="1rem">
+                Register
+            </Typography>
         </Box>
     )
 }

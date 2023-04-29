@@ -10,7 +10,9 @@ export default function Guidelines() {
             alignItems: "center",
             gap: "1rem"
         }} id="guidelines">
-            <Typography component="h1" variant="h1">Guidelines</Typography>
+            <Typography color="primaryLight.main" component="h1" variant="h1" fontWeight="bold" marginTop="1rem">
+                Guidelines
+            </Typography>
         </Box>
     )
 }

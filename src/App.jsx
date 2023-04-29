@@ -1,4 +1,4 @@
-import { Box, Typography } from '@mui/material'
+import { Box } from '@mui/material'
 import Dashboard from "./components/Dashboard"
 import Home from "./components/Home"
 import About from "./components/About"
