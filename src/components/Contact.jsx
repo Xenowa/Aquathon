@@ -3,7 +3,6 @@ import Card from '@mui/material/Card';
 import CardContent from '@mui/material/CardContent';
 import CardMedia from '@mui/material/CardMedia';
 import Typography from '@mui/material/Typography';
-import placeholder from "../assets/placeholder.jpg";
 import Table from '@mui/material/Table';
 import TableBody from '@mui/material/TableBody';
 import TableCell from '@mui/material/TableCell';
@@ -11,6 +10,9 @@ import TableRow from '@mui/material/TableRow';
 import { Person } from "@mui/icons-material";
 import EmailIcon from '@mui/icons-material/Email';
 import LocalPhoneIcon from '@mui/icons-material/LocalPhone';
+import malith from "../assets/malith.jpg"
+import adheeb from "../assets/adheeb.jpg"
+import budwin from "../assets/budwin.jpg"
 
 export default function Contact() {
     return (
@@ -34,10 +36,10 @@ export default function Contact() {
                     color: "primary.main",
                     textAlign: "center"
                 }}>
-                    <CardMedia
-                        sx={{ height: 140, border: "1px solid white", borderRadius: "0.5rem 0.5rem 0 0" }}
-                        image={placeholder}
-                        title="First Place"
+                    <img
+                        style={{ height: "15rem", width: "100%", objectFit: "cover", objectPosition: "top" }}
+                        src={malith}
+                        title="Malith"
                     />
                     <CardContent>
                         <Typography gutterBottom color="secondary" variant="h5" component="h5" fontWeight="bold">
@@ -84,10 +86,10 @@ export default function Contact() {
                     color: "primary.main",
                     textAlign: "center"
                 }}>
-                    <CardMedia
-                        sx={{ height: 140, border: "1px solid white", borderRadius: "0.5rem 0.5rem 0 0" }}
-                        image={placeholder}
-                        title="First Place"
+                    <img
+                        style={{ height: "15rem", width: "100%", objectFit: "cover", objectPosition: "top" }}
+                        src={budwin}
+                        title="Budwin"
                     />
                     <CardContent>
                         <Typography gutterBottom color="secondary" variant="h5" component="h5" fontWeight="bold">
@@ -134,10 +136,10 @@ export default function Contact() {
                     color: "primary.main",
                     textAlign: "center"
                 }}>
-                    <CardMedia
-                        sx={{ height: 140, border: "1px solid white", borderRadius: "0.5rem 0.5rem 0 0" }}
-                        image={placeholder}
-                        title="First Place"
+                    <img
+                        style={{ height: "15rem", width: "100%", objectFit: "cover", objectPosition: "top" }}
+                        src={adheeb}
+                        title="Adheeb"
                     />
                     <CardContent>
                         <Typography gutterBottom color="secondary" variant="h5" component="h5" fontWeight="bold">
