@@ -76,7 +76,7 @@ export default function About() {
                         </CardContent>
                         <CardActions>
                             <Button size="large" variant="contained" color="secondary" component="a" href="#register">
-                                Register your team
+                                Register Yourself
                             </Button>
                         </CardActions>
                     </Card>
@@ -104,7 +104,7 @@ export default function About() {
                         </CardContent>
                         <CardActions>
                             <Button size="large" variant="contained" color="secondary" component="a" href="https://docs.google.com/spreadsheets/d/1Tz50_ugiI-fgNCcBo7wqnICcdRyNfLwP3Cg-5UR3Kbc/edit?usp=sharing" target='_blank'>
-                                Visit Database
+                                View Database
                             </Button>
                         </CardActions>
                     </Card>

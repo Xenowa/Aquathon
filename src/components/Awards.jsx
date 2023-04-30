@@ -27,13 +27,14 @@ export default function Awards() {
                     bgcolor: "secondaryLight.main",
                     color: "primary.main",
                     textAlign: "center",
+                    borderRadius: "0.5rem",
                     order: {
                         sm: "1",
                         md: "2"
                     }
                 }}>
                     <CardMedia
-                        sx={{ height: 140, border: "1px solid white" }}
+                        sx={{ height: 140, border: "1px solid white", borderRadius: "0.5rem 0.5rem 0 0" }}
                         image={placeholder}
                         title="First Place"
                     />
@@ -52,13 +53,14 @@ export default function Awards() {
                     bgcolor: "secondaryLight.main",
                     color: "primary.main",
                     textAlign: "center",
+                    borderRadius: "0.5rem",
                     order: {
                         sm: "2",
                         md: "3"
                     }
                 }}>
                     <CardMedia
-                        sx={{ height: 140, border: "1px solid white" }}
+                        sx={{ height: 140, border: "1px solid white", borderRadius: "0.5rem 0.5rem 0 0" }}
                         image={placeholder}
                         title="First Place"
                     />
@@ -77,13 +79,14 @@ export default function Awards() {
                     bgcolor: "secondaryLight.main",
                     color: "primary.main",
                     textAlign: "center",
+                    borderRadius: "0.5rem",
                     order: {
                         sm: "3",
                         md: "1"
                     }
                 }}>
                     <CardMedia
-                        sx={{ height: 140, border: "1px solid white" }}
+                        sx={{ height: 140, border: "1px solid white", borderRadius: "0.5rem 0.5rem 0 0" }}
                         image={placeholder}
                         title="First Place"
                     />
