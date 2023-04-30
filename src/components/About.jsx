@@ -17,7 +17,7 @@ export default function About() {
             alignItems: "center",
             gap: "1rem"
         }} id="about" bgcolor="white" color="primary.main">
-            <Typography color="primary" component="h1" variant="h1" fontWeight="bold" marginTop="1rem">
+            <Typography color="primary" component="h1" variant="h1" fontWeight="bold" marginTop="1rem" textAlign="center">
                 What is <Typography color="primaryLight.main" component="span" variant="span">Aquathon?</Typography>
             </Typography>
 
@@ -33,14 +33,24 @@ export default function About() {
                     textAlign: "justify"
                 }}
             >
-                Aquathon is an exciting mini hackathon event for level 4
-                students of Informatics Institute of Technology. This
-                competition will challenge participants to solve a series
-                of algorithmic problems of varying difficulty levels
-                conducted on the HackerRank platform. Aquathon is a great
-                opportunity for students to showcase their problem-solving
-                skills and network with other like-minded individuals.
-                Don't miss your chance to participate in this exciting event!
+                Aquathon is a mini-hackathon that is newly presented by the IEEE Student
+                Branch of the Informatics Institute of Technology with the aim of
+                introducing undergraduate freshers to the world of hackathons.
+
+                This mini-hackathon is exclusively for all Level 04 students at the
+                Informatics Institute of Technology who are new to the technology field
+                and eager to experience challenges. The insufficient idea about hackathons
+                and less hackathon experience among fresh undergraduates are the major
+                reasons for this new initiative. <br /><br />
+
+                This is a six-hour mini-hackathon consisting of fifteen programming
+                questions in order to deliver a vast idea about the structure of
+                hackathons, where those questions are categorized into the following
+                level of difficulty. <br /><br />
+                Easy questions - <Typography component="span" variant="span" color="primaryLight.main">6 Questions</Typography>, 10 minutes each  <br />
+                Medium questions - <Typography component="span" variant="span" color="primaryLight.main">6 Questions</Typography>, 20 minutes each  <br />
+                Hard questions - <Typography component="span" variant="span" color="primaryLight.main">3 Questions</Typography>, 1 hour each
+
             </Typography>
 
             <Grid container spacing={2} sx={{ maxWidth: "90rem", padding: "0 2rem" }} marginBottom="1rem">
@@ -93,7 +103,7 @@ export default function About() {
                             </Typography>
                         </CardContent>
                         <CardActions>
-                            <Button size="large" variant="contained" color="secondary" component="a" href="#0" target='_blank'>
+                            <Button size="large" variant="contained" color="secondary" component="a" href="https://docs.google.com/spreadsheets/d/1Tz50_ugiI-fgNCcBo7wqnICcdRyNfLwP3Cg-5UR3Kbc/edit?usp=sharing" target='_blank'>
                                 Visit Database
                             </Button>
                         </CardActions>

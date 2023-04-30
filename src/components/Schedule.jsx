@@ -34,7 +34,7 @@ export default function Schedule() {
                     </TimelineSeparator>
                     <TimelineContent sx={{ m: 'auto 0' }}>
                         <Typography variant="h6" component="span">
-                            8:30 AM, May 26th
+                            8:30 AM, May 17th
                         </Typography>
                     </TimelineContent>
                 </TimelineItem>
@@ -54,7 +54,7 @@ export default function Schedule() {
                     </TimelineSeparator>
                     <TimelineContent sx={{ m: 'auto 0' }}>
                         <Typography variant="h6" component="span">
-                            9:15 AM, May 26th
+                            9:15 AM, May 17th
                         </Typography>
                     </TimelineContent>
                 </TimelineItem>
@@ -74,7 +74,7 @@ export default function Schedule() {
                     </TimelineSeparator>
                     <TimelineContent sx={{ m: 'auto 0' }}>
                         <Typography variant="h6" component="span">
-                            1:30 PM, May 26th
+                            1:30 PM, May 17th
                         </Typography>
                     </TimelineContent>
                 </TimelineItem>
@@ -94,7 +94,7 @@ export default function Schedule() {
                     </TimelineSeparator>
                     <TimelineContent sx={{ m: 'auto 0' }}>
                         <Typography variant="h6" component="span">
-                            1:30 PM, May 26th
+                            1:30 PM, May 17th
                         </Typography>
                     </TimelineContent>
                 </TimelineItem>
@@ -114,7 +114,7 @@ export default function Schedule() {
                     </TimelineSeparator>
                     <TimelineContent sx={{ m: 'auto 0' }}>
                         <Typography variant="h6" component="span">
-                            5:00 PM, May 26th
+                            5:00 PM, May 17th
                         </Typography>
                     </TimelineContent>
                 </TimelineItem>
@@ -134,7 +134,7 @@ export default function Schedule() {
                     </TimelineSeparator>
                     <TimelineContent sx={{ m: 'auto 0' }}>
                         <Typography variant="h6" component="span">
-                            5:30 PM, May 26th
+                            5:30 PM, May 17th
                         </Typography>
                     </TimelineContent>
                 </TimelineItem>
@@ -154,7 +154,7 @@ export default function Schedule() {
                     </TimelineSeparator>
                     <TimelineContent sx={{ m: 'auto 0' }}>
                         <Typography variant="h6" component="span">
-                            6:00 PM, May 26th
+                            6:00 PM, May 17th
                         </Typography>
                     </TimelineContent>
                 </TimelineItem>
@@ -171,8 +171,8 @@ export default function Schedule() {
             alignItems: "center",
             gap: "1rem"
         }} id="schedule" bgcolor="secondaryLight.main" color="primary.main">
-            <Typography color="primaryLight.main" component="h1" variant="h1" fontWeight="bold" marginTop="1rem">
-                Schedule
+            <Typography color="primary" component="h1" variant="h1" fontWeight="bold" marginTop="1rem" textAlign="center">
+                Structure and <Typography color="primaryLight.main" component="span" variant="span">Schedule</Typography>
             </Typography>
 
             {/* For Desktops */}

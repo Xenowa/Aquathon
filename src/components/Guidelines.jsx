@@ -25,7 +25,7 @@ export default function Guidelines() {
             alignItems: "center",
             gap: "1rem"
         }} id="guidelines">
-            <Typography color="primaryLight.main" component="h1" variant="h1" fontWeight="bold" marginTop="1rem">
+            <Typography color="primaryLight.main" component="h1" variant="h1" fontWeight="bold" marginTop="1rem" textAlign="center">
                 Guidelines
             </Typography>
 
@@ -37,11 +37,11 @@ export default function Guidelines() {
                     sx={{ bgcolor: "secondaryLight.main", color: "primary.main" }}
                 >
                     <AccordionSummary expandIcon={<ExpandCircleDownRounded fontSize="large" color="secondary" />}>
-                        <Typography variant="h4">Can I participate as an individual, or do I need to form a team?</Typography>
+                        <Typography variant="h4">How can a team leader register their team for Aquathon?</Typography>
                     </AccordionSummary>
                     <AccordionDetails>
                         <Typography variant="p">
-                            You need to participate as a team. Teams of 2-3 members are allowed.
+                            The team leader can register the team through the online registration form.
                         </Typography>
                     </AccordionDetails>
                 </Accordion>
@@ -53,11 +53,11 @@ export default function Guidelines() {
                     sx={{ bgcolor: "secondaryLight.main", color: "primary.main" }}
                 >
                     <AccordionSummary expandIcon={<ExpandCircleDownRounded fontSize="large" color="secondary" />}>
-                        <Typography variant="h4">How many questions will there be, and what will the difficulty level be?</Typography>
+                        <Typography variant="h4">What is the minimum and maximum number of members allowed in a team for Aquathon?</Typography>
                     </AccordionSummary>
                     <AccordionDetails>
                         <Typography variant="p">
-                            There will be a total of 15 questions, with six easy questions, six medium questions, and three hard questions
+                            A team should be composed of a minimum of 2 and a maximum of 3 members.
                         </Typography>
                     </AccordionDetails>
                 </Accordion>
@@ -69,11 +69,11 @@ export default function Guidelines() {
                     sx={{ bgcolor: "secondaryLight.main", color: "primary.main" }}
                 >
                     <AccordionSummary expandIcon={<ExpandCircleDownRounded fontSize="large" color="secondary" />}>
-                        <Typography variant="h4">How long does the competition last?</Typography>
+                        <Typography variant="h4">What is the academic level requirement for participating in Aquathon?</Typography>
                     </AccordionSummary>
                     <AccordionDetails>
                         <Typography variant="p">
-                            The competition will take place on May 26th, from 9.00am to 4.00pm.
+                            All team members must be Level 4 (1st year) full-time or part-time undergraduates at the Informatics Institute of Technology.
                         </Typography>
                     </AccordionDetails>
                 </Accordion>
@@ -85,11 +85,11 @@ export default function Guidelines() {
                     sx={{ bgcolor: "secondaryLight.main", color: "primary.main" }}
                 >
                     <AccordionSummary expandIcon={<ExpandCircleDownRounded fontSize="large" color="secondary" />}>
-                        <Typography variant="h4">Will snacks and drinks be provided during the competition?</Typography>
+                        <Typography variant="h4">Can a participant be a member of more than one team during the competition?</Typography>
                     </AccordionSummary>
                     <AccordionDetails>
                         <Typography variant="p">
-                            Yes, participants will be provided with 1-2 pieces of snack and a drink during the event.
+                            Each participant in the competition can only be a member of one team.
                         </Typography>
                     </AccordionDetails>
                 </Accordion>
@@ -101,11 +101,11 @@ export default function Guidelines() {
                     sx={{ bgcolor: "secondaryLight.main", color: "primary.main" }}
                 >
                     <AccordionSummary expandIcon={<ExpandCircleDownRounded fontSize="large" color="secondary" />}>
-                        <Typography variant="h4">What is the eligibility criteria for participating in Aquathon?</Typography>
+                        <Typography variant="h4">Who is responsible for filling out the registration form and providing the details of the team members for Aquathon?</Typography>
                     </AccordionSummary>
                     <AccordionDetails>
                         <Typography variant="p">
-                            All participants must have a valid student ID and be able to provide proof of enrollment upon request.
+                            Only the team leader should fill out the registration form and the required details of the team members.
                         </Typography>
                     </AccordionDetails>
                 </Accordion>
@@ -117,16 +117,85 @@ export default function Guidelines() {
                     sx={{ bgcolor: "secondaryLight.main", color: "primary.main" }}
                 >
                     <AccordionSummary expandIcon={<ExpandCircleDownRounded fontSize="large" color="secondary" />}>
-                        <Typography variant="h4">What is the academic qualification required to participate in Aquathon?</Typography>
+                        <Typography variant="h4">Is it possible for participants to switch teams after registering for Aquathon?</Typography>
                     </AccordionSummary>
                     <AccordionDetails>
                         <Typography variant="p">
-                            All the participants must be level 4 undergraduates studying at IIT.
+                            No participant will be allowed to change teams once they register.
+                        </Typography>
+                    </AccordionDetails>
+                </Accordion>
+                <Divider />
+                <Accordion
+                    disableGutters
+                    expanded={expanded === 'panel7'}
+                    onChange={handleChange('panel7')}
+                    sx={{ bgcolor: "secondaryLight.main", color: "primary.main" }}
+                >
+                    <AccordionSummary expandIcon={<ExpandCircleDownRounded fontSize="large" color="secondary" />}>
+                        <Typography variant="h4">What are the basic requirements for creating a team for Aquathon?</Typography>
+                    </AccordionSummary>
+                    <AccordionDetails>
+                        <Typography variant="p">
+                            A team should have a team name and a team leader assigned.
+                        </Typography>
+                    </AccordionDetails>
+                </Accordion>
+                <Divider />
+                <Accordion
+                    disableGutters
+                    expanded={expanded === 'panel8'}
+                    onChange={handleChange('panel8')}
+                    sx={{ bgcolor: "secondaryLight.main", color: "primary.main" }}
+                >
+                    <AccordionSummary expandIcon={<ExpandCircleDownRounded fontSize="large" color="secondary" />}>
+                        <Typography variant="h4">Is there a restriction on the programming language to be used during Aquathon?</Typography>
+                    </AccordionSummary>
+                    <AccordionDetails>
+                        <Typography variant="p">
+                            You can use any programming language during the competition.
+                        </Typography>
+                    </AccordionDetails>
+                </Accordion>
+                <Divider />
+                <Accordion
+                    disableGutters
+                    expanded={expanded === 'panel9'}
+                    onChange={handleChange('panel9')}
+                    sx={{ bgcolor: "secondaryLight.main", color: "primary.main" }}
+                >
+                    <AccordionSummary expandIcon={<ExpandCircleDownRounded fontSize="large" color="secondary" />}>
+                        <Typography variant="h4">What are the consequences of misbehavior or misconduct during the competition?</Typography>
+                    </AccordionSummary>
+                    <AccordionDetails>
+                        <Typography variant="p">
+                            Any misbehave or misconduct during the competition will be disqualified the team.
+                        </Typography>
+                    </AccordionDetails>
+                </Accordion>
+                <Divider />
+                <Accordion
+                    disableGutters
+                    expanded={expanded === 'panel10'}
+                    onChange={handleChange('panel10')}
+                    sx={{ bgcolor: "secondaryLight.main", color: "primary.main" }}
+                >
+                    <AccordionSummary expandIcon={<ExpandCircleDownRounded fontSize="large" color="secondary" />}>
+                        <Typography variant="h4">Whose decision is considered final in case of any disputes during Aquathon?</Typography>
+                    </AccordionSummary>
+                    <AccordionDetails>
+                        <Typography variant="p">
+                            The decision of the organizing committee will be final.
                         </Typography>
                     </AccordionDetails>
                 </Accordion>
             </Box>
-            <Button color="secondary" variant="outlined" component="a" href="#0">Download Booklet</Button>
+            <Button
+                color="secondary"
+                variant="outlined"
+                component="a"
+                sx={{ margin: "1rem 0" }}
+                href="#0">Download Booklet</Button>
         </Box>
     )
 }

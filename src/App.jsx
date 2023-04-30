@@ -9,6 +9,7 @@ import Partners from "./components/Partners"
 import Register from "./components/Register"
 import Contact from "./components/Contact"
 import './App.css'
+import Footer from './components/Footer'
 
 function App() {
 
@@ -24,6 +25,7 @@ function App() {
         <Partners />
         <Register />
         <Contact />
+        <Footer />
       </Box>
     </Box>
   )

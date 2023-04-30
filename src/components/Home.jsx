@@ -21,7 +21,7 @@ export default function Home() {
                 textAlign="center"
                 fontWeight="bold"
             >
-                Coding is the new norm
+                Dive deep to discover the possibilities
             </Typography>
             <Button
                 component="a"
