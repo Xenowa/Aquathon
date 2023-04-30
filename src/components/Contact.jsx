@@ -26,7 +26,7 @@ export default function Contact() {
                 Contact <Typography color="primaryLight.main" component="span" variant="span">Us</Typography>
             </Typography>
 
-            <Box sx={{ display: "flex", justifyContent: "center", flexWrap: "wrap", gap: "1rem" }}>
+            <Box sx={{ display: "flex", justifyContent: "center", flexWrap: "wrap", gap: "1rem", marginBottom: "1rem" }}>
                 <Card sx={{
                     width: "20rem",
                     height: "100%",
@@ -143,11 +143,9 @@ export default function Contact() {
                         <Typography gutterBottom color="secondary" variant="h5" component="h5" fontWeight="bold">
                             Treasurer <br />
                             IEEE Student Branch of IIT
-
-
                         </Typography>
 
-                        <Table sx={{ marginBottom: "1rem" }}>
+                        <Table>
                             <TableBody >
                                 <TableRow>
                                     <TableCell component="th" scope="row">
