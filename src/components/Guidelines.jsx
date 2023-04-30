@@ -12,7 +12,6 @@ export default function Guidelines() {
     const [expanded, setExpanded] = useState(false);
 
     const handleChange = (panel) => (event, newExpanded) => {
-        console.log(newExpanded)
         setExpanded(newExpanded ? panel : false);
     };
 
