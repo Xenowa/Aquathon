@@ -221,7 +221,7 @@ export default function Schedule() {
             justifyContent: "center",
             alignItems: "center",
             gap: "1rem"
-        }} id="schedule" bgcolor="secondaryLight.main" color="primary.main">
+        }} id="schedule" bgcolor="white" color="primary.main">
             <Typography color="primaryLight.main" component="h1" variant="h1" fontWeight="bold" marginTop="1rem" textAlign="center">Schedule</Typography>
 
             {/* For Desktops */}
