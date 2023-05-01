@@ -222,9 +222,7 @@ export default function Schedule() {
             alignItems: "center",
             gap: "1rem"
         }} id="schedule" bgcolor="secondaryLight.main" color="primary.main">
-            <Typography color="primary" component="h1" variant="h1" fontWeight="bold" marginTop="1rem" textAlign="center">
-                Structure and <Typography color="primaryLight.main" component="span" variant="span">Schedule</Typography>
-            </Typography>
+            <Typography color="primaryLight.main" component="h1" variant="h1" fontWeight="bold" marginTop="1rem" textAlign="center">Schedule</Typography>
 
             {/* For Desktops */}
             <Timeline position="alternate" sx={{ display: { xs: "none", md: "block" } }}>

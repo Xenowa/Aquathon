@@ -102,8 +102,8 @@ export default function Awards() {
             </Box>
 
             <Box sx={{ maxWidth: "40rem", display: "flex", alignItems: "center", flexDirection: "column", gap: "1rem", margin: "1rem 3rem" }}>
-                <Alert severity="info" variant="outlined" sx={{ width: "100%" }}>All participants are awarded an e-certificate !</Alert>
-                <Alert severity="info" variant="outlined" sx={{ width: "100%" }}>Three lucky participants will receive free IEEE global memberships !</Alert>
+                <Alert severity="info" variant="outlined" sx={{ width: "100%" }}>Three lucky participants will receive free IEEE global memberships</Alert>
+                <Alert severity="info" variant="outlined" sx={{ width: "100%" }}>All participants are awarded an e-certificate</Alert>
             </Box>
         </Box>
     )

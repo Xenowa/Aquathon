@@ -20,8 +20,11 @@ export default function Home() {
                 variant="h1"
                 textAlign="center"
                 fontWeight="bold"
+                sx={{
+                    fontStyle: "italic"
+                }}
             >
-                Dive deep to discover the possibilities
+                "Dive deep to discover the possibilities"
             </Typography>
             <Button
                 component="a"

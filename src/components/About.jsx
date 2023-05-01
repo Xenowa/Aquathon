@@ -74,7 +74,7 @@ export default function About() {
                                 Fill out the <Typography component="span" variant="span" color="primaryLight.main">Google Form</Typography> with relevant details to register your team
                             </Typography>
                         </CardContent>
-                        <CardActions>
+                        <CardActions sx={{ marginBottom: "2rem" }}>
                             <Button size="large" variant="contained" color="secondary" component="a" href="#register">
                                 Register Yourself
                             </Button>
@@ -102,7 +102,7 @@ export default function About() {
                                 After registering through the form, your team will be allocated in a <Typography component="span" variant="span" color="primaryLight.main">database</Typography> where you can view further details
                             </Typography>
                         </CardContent>
-                        <CardActions>
+                        <CardActions sx={{ marginBottom: "2rem" }}>
                             <Button size="large" variant="contained" color="secondary" component="a" href="https://docs.google.com/spreadsheets/d/1Tz50_ugiI-fgNCcBo7wqnICcdRyNfLwP3Cg-5UR3Kbc/edit?usp=sharing" target='_blank'>
                                 View Database
                             </Button>
@@ -130,7 +130,7 @@ export default function About() {
                                 HackerRank is the platform where the participants will be receiving the coding tasks and submitting answers. <Typography component="span" variant="span" color="primaryLight.main">Sharpen your coding skills</Typography> by solving coding challenges.
                             </Typography>
                         </CardContent>
-                        <CardActions>
+                        <CardActions sx={{ marginBottom: "2rem" }}>
                             <Button size="large" variant="contained" color="secondary" component="a" href="https://www.hackerrank.com/dashboard" target='_blank'>
                                 Visit Hacker Rank
                             </Button>
