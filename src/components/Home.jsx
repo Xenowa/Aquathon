@@ -1,5 +1,6 @@
 import { Box, Button, Typography } from "@mui/material";
 import AquathonLightIcon from "../assets/Auquadrop-light.png"
+import ReactParticles from "./ReactParticles";
 
 export default function Home() {
     return (
@@ -10,6 +11,8 @@ export default function Home() {
             justifyContent: "center",
             alignItems: "center"
         }} id="home">
+            <ReactParticles />
+
             <img
                 src={AquathonLightIcon} alt="Logo"
                 style={{ width: "100%", maxWidth: "40rem", maxHeight: "20rem", objectFit: "cover" }}

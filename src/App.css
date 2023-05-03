@@ -37,3 +37,8 @@ body {
   background: var(--primary);
   color: #ffffff;
 }
+
+#tsparticles {
+  height: 100%;
+  position: absolute;
+}
