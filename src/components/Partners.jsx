@@ -3,7 +3,7 @@ import Card from '@mui/material/Card';
 import CardContent from '@mui/material/CardContent';
 import CardMedia from '@mui/material/CardMedia';
 import Typography from '@mui/material/Typography';
-import placeholder from "../assets/placeholder.jpg";
+import iitlogo from "../assets/IIT logo.jpg";
 
 export default function Partners() {
     return (
@@ -16,27 +16,29 @@ export default function Partners() {
             gap: "1rem"
         }} id="partners" bgcolor="white" color="primary.main">
             <Typography color="primary" component="h1" variant="h1" fontWeight="bold" marginTop="1rem" textAlign="center">
-                Official <Typography color="primaryLight.main" component="span" variant="span">Sponsors</Typography>
+                {/* Official <Typography color="primaryLight.main" component="span" variant="span">Sponsors</Typography> */}
+                Our <Typography color="primaryLight.main" component="span" variant="span">Partners</Typography>
             </Typography>
 
             <Box sx={{ display: "flex", justifyContent: "center", flexDirection: "column", gap: "1rem", marginBottom: "1rem" }}>
-                <Typography component="h2" variant="h2" textAlign="center">Official Platinum Partner</Typography>
+                {/* <Typography component="h2" variant="h2" textAlign="center">Official Platinum Partner</Typography> */}
                 <Box sx={{ display: "flex", justifyContent: "center", flexWrap: "wrap", gap: "1rem" }}>
-                    <Box component="a" href="#0" target="_blank">
-                        <Box
-                            component="img"
-                            sx={{
-                                width: "20rem",
+                    <Box component="a" href="https://www.iit.ac.lk/" target="_blank">
+                        <img
+                            style={{
+                                width: "100%",
+                                maxWidth: "20rem",
                                 height: "100%",
-                                borderRadius: "0.5rem"
+                                borderRadius: "0.5rem",
+                                objectFit: "cover",
                             }}
+                            src={iitlogo}
                             alt="Partner 1"
-                            src={placeholder}
                         />
                     </Box>
                 </Box>
 
-                <Typography component="h2" variant="h2" textAlign="center">Official Gold Partners</Typography>
+                {/* <Typography component="h2" variant="h2" textAlign="center">Official Gold Partners</Typography>
                 <Box sx={{ display: "flex", justifyContent: "center", flexWrap: "wrap", gap: "1rem" }}>
                     <Box component="a" href="#0" target="_blank">
                         <Box
@@ -90,7 +92,7 @@ export default function Partners() {
                             src={placeholder}
                         />
                     </Box>
-                </Box>
+                </Box> */}
             </Box>
         </Box>
     )

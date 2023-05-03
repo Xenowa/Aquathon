@@ -18,7 +18,6 @@ import EmojiEventsIcon from '@mui/icons-material/EmojiEvents';
 import GroupsIcon from '@mui/icons-material/Groups';
 import SendIcon from '@mui/icons-material/Send';
 import PermPhoneMsgIcon from '@mui/icons-material/PermPhoneMsg';
-import AquathonDarkIcon from "../assets/Auquadrop-dark.png"
 
 export default function Dashboard() {
     const [mobileOpen, setMobileOpen] = useState(false);
@@ -30,11 +29,11 @@ export default function Dashboard() {
 
     const drawerWidth = "15rem"
     const drawer = (
-        <Box sx={{ bgcolor: "primaryLight.main" }}>
+        <Box sx={{ bgcolor: "primaryLight.main", minHeight: "100vh", display: "flex", flexDirection: "column", justifyContent: "space-around", gap: "1rem" }}>
             <Typography
                 component="h1"
                 variant="h1"
-                sx={{ textAlign: "center", margin: "2rem 0 1rem 0", fontFamily: "Montserrat" }}
+                sx={{ textAlign: "center", margin: "2rem 0 0 0", fontFamily: "Montserrat" }}
             >
                 AQUATHON
             </Typography>
@@ -156,14 +155,7 @@ export default function Dashboard() {
                     </ListItemButton>
                 </ListItem>
             </List>
-            <Box sx={{ display: "flex", flexDirection: "column", alignItems: "center" }}>
-                <img
-                    src={AquathonDarkIcon}
-                    alt="Aquathon Logo"
-                    style={{ width: "8rem", objectFit: "cover" }}
-                />
-                <Typography variant="p" component="p">IEEE IIT ©️ 2023</Typography>
-            </Box>
+            <Typography variant="p" component="p" textAlign="center">IEEE IIT ©️ 2023</Typography>
         </Box>
     )
 

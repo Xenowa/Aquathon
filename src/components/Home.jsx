@@ -8,20 +8,19 @@ export default function Home() {
             display: "flex",
             flexDirection: "column",
             justifyContent: "center",
-            alignItems: "center",
-            gap: "1rem"
+            alignItems: "center"
         }} id="home">
             <img
                 src={AquathonLightIcon} alt="Logo"
-                style={{ maxwidth: "30rem", maxHeight: "22rem", objectFit: "cover" }}
+                style={{ width: "100%", maxWidth: "40rem", maxHeight: "20rem", objectFit: "cover" }}
             />
             <Typography
                 component="h3"
                 variant="h3"
                 textAlign="center"
-                fontWeight="bold"
                 sx={{
-                    fontStyle: "italic"
+                    fontStyle: "italic",
+                    marginBottom: "3rem"
                 }}
             >
                 "Dive deep to discover the possibilities"

@@ -1,4 +1,4 @@
-import Box from "@mui/material/Box";
+import Box from "@mui/material/Box"
 import Card from '@mui/material/Card';
 import CardContent from '@mui/material/CardContent';
 import CardMedia from '@mui/material/CardMedia';
@@ -34,7 +34,7 @@ export default function Awards() {
                     }
                 }}>
                     <CardMedia
-                        sx={{ height: 140, border: "1px solid white", borderRadius: "0.5rem 0.5rem 0 0" }}
+                        sx={{ height: 140, borderRadius: "0.5rem 0.5rem 0 0" }}
                         image={placeholder}
                         title="First Place"
                     />
@@ -60,7 +60,7 @@ export default function Awards() {
                     }
                 }}>
                     <CardMedia
-                        sx={{ height: 140, border: "1px solid white", borderRadius: "0.5rem 0.5rem 0 0" }}
+                        sx={{ height: 140, borderRadius: "0.5rem 0.5rem 0 0" }}
                         image={placeholder}
                         title="First Place"
                     />
@@ -86,7 +86,7 @@ export default function Awards() {
                     }
                 }}>
                     <CardMedia
-                        sx={{ height: 140, border: "1px solid white", borderRadius: "0.5rem 0.5rem 0 0" }}
+                        sx={{ height: 140, borderRadius: "0.5rem 0.5rem 0 0" }}
                         image={placeholder}
                         title="First Place"
                     />

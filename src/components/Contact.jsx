@@ -1,7 +1,6 @@
-import Box from "@mui/material/Box";
+import Box from "@mui/material/Box"
 import Card from '@mui/material/Card';
 import CardContent from '@mui/material/CardContent';
-import CardMedia from '@mui/material/CardMedia';
 import Typography from '@mui/material/Typography';
 import Table from '@mui/material/Table';
 import TableBody from '@mui/material/TableBody';
@@ -13,6 +12,8 @@ import LocalPhoneIcon from '@mui/icons-material/LocalPhone';
 import malith from "../assets/malith.jpg"
 import adheeb from "../assets/adheeb.jpg"
 import budwin from "../assets/budwin.jpg"
+import Avatar from '@mui/material/Avatar';
+import Chip from '@mui/material/Chip';
 
 export default function Contact() {
     return (
@@ -28,7 +29,7 @@ export default function Contact() {
                 Contact <Typography color="primaryLight.main" component="span" variant="span">Us</Typography>
             </Typography>
 
-            <Box sx={{ display: "flex", justifyContent: "center", flexWrap: "wrap", gap: "1rem", marginBottom: "1rem" }}>
+            <Box sx={{ display: "flex", justifyContent: "center", flexWrap: "wrap", gap: "1rem" }}>
                 <Card sx={{
                     width: "20rem",
                     height: "100%",
@@ -177,6 +178,21 @@ export default function Contact() {
                         </Table>
                     </CardContent>
                 </Card>
+            </Box>
+
+            <Typography color="primary" component="h1" variant="h1" fontWeight="bold" marginTop="1rem" textAlign="center">
+                Our <Typography color="primaryLight.main" component="span" variant="span">Team</Typography>
+            </Typography>
+
+            <Box sx={{ display: "flex", flexWrap: "wrap", justifyContent: "center", gap: "1rem", marginBottom: "1rem", maxWidth: "60rem " }}>
+                <Chip sx={{ bgcolor: "primary.main", color: "secondaryLight.main" }} avatar={<Avatar sx={{ bgcolor: "secondary.main" }}>TW</Avatar>} label="Tharana Wanigaratne" />
+                <Chip sx={{ bgcolor: "primary.main", color: "secondaryLight.main" }} avatar={<Avatar sx={{ bgcolor: "secondary.main" }}>TA</Avatar>} label="Taalib Asaf" />
+                <Chip sx={{ bgcolor: "primary.main", color: "secondaryLight.main" }} avatar={<Avatar sx={{ bgcolor: "secondary.main" }}>AM</Avatar>} label="Akshayan Mohandas" />
+                <Chip sx={{ bgcolor: "primary.main", color: "secondaryLight.main" }} avatar={<Avatar sx={{ bgcolor: "secondary.main" }}>AT</Avatar>} label="Ashnica Thiruchelvan" />
+                <Chip sx={{ bgcolor: "primary.main", color: "secondaryLight.main" }} avatar={<Avatar sx={{ bgcolor: "secondary.main" }}>HA</Avatar>} label="Harini Abeysirigunawardena" />
+                <Chip sx={{ bgcolor: "primary.main", color: "secondaryLight.main" }} avatar={<Avatar sx={{ bgcolor: "secondary.main" }}>RG</Avatar>} label="Ryan Gunatilake" />
+                <Chip sx={{ bgcolor: "primary.main", color: "secondaryLight.main" }} avatar={<Avatar sx={{ bgcolor: "secondary.main" }}>YD</Avatar>} label="Yashmitha Dilshan" />
+                <Chip sx={{ bgcolor: "primary.main", color: "secondaryLight.main" }} avatar={<Avatar sx={{ bgcolor: "secondary.main" }}>AR</Avatar>} label="Atheeshwaran Rajaratnam" />
             </Box>
         </Box>
     )
