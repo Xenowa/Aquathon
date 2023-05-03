@@ -131,7 +131,7 @@ export default function About() {
                             </Typography>
                         </CardContent>
                         <CardActions sx={{ marginBottom: "2rem" }}>
-                            <Button size="large" variant="contained" color="secondary" component="a" href="https://www.hackerrank.com/dashboard" target='_blank'>
+                            <Button size="large" variant="contained" color="secondary" component="a" href="https://www.hackerrank.com" target='_blank'>
                                 Visit Hacker Rank
                             </Button>
                         </CardActions>

@@ -4,6 +4,7 @@ import App from './App.jsx'
 import { ThemeProvider, createTheme } from '@mui/material/styles';
 // Loading Fonts
 import "@fontsource/poppins"
+import "@fontsource/montserrat"
 
 // Creating a custom theme
 const darkTheme = createTheme({

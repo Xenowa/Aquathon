@@ -34,7 +34,7 @@ export default function Dashboard() {
             <Typography
                 component="h1"
                 variant="h1"
-                sx={{ textAlign: "center", margin: "2rem 0 1rem 0" }}
+                sx={{ textAlign: "center", margin: "2rem 0 1rem 0", fontFamily: "Montserrat" }}
             >
                 AQUATHON
             </Typography>

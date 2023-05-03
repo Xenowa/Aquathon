@@ -16,8 +16,8 @@ export default function Home() {
                 style={{ maxwidth: "30rem", maxHeight: "22rem", objectFit: "cover" }}
             />
             <Typography
-                component="h1"
-                variant="h1"
+                component="h3"
+                variant="h3"
                 textAlign="center"
                 fontWeight="bold"
                 sx={{
@@ -28,6 +28,7 @@ export default function Home() {
             </Typography>
             <Button
                 component="a"
+                sx={{ fontSize: "20px" }}
                 variant="outlined"
                 color="secondary"
                 href="#register">
