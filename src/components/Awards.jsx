@@ -3,8 +3,10 @@ import Card from '@mui/material/Card';
 import CardContent from '@mui/material/CardContent';
 import CardMedia from '@mui/material/CardMedia';
 import Typography from '@mui/material/Typography';
-import placeholder from "../assets/placeholder.jpg";
 import Alert from '@mui/material/Alert';
+import firstplace from "../assets/first place.jpg"
+import secondplace from "../assets/second place.jpg"
+import thirdplace from "../assets/third place.jpg"
 
 export default function Awards() {
     return (
@@ -20,10 +22,9 @@ export default function Awards() {
                 Awards
             </Typography>
 
-            <Box sx={{ display: "flex", justifyContent: "center", flexWrap: "wrap", gap: "1rem" }}>
+            <Box sx={{ display: "flex", justifyContent: "center", alignItems: "baseline", flexWrap: "wrap", gap: "1rem" }}>
                 <Card sx={{
-                    width: "20rem",
-                    height: "100%",
+                    width: "15rem",
                     bgcolor: "secondaryLight.main",
                     color: "primary.main",
                     textAlign: "center",
@@ -34,13 +35,19 @@ export default function Awards() {
                     }
                 }}>
                     <CardMedia
-                        sx={{ height: 140, borderRadius: "0.5rem 0.5rem 0 0" }}
-                        image={placeholder}
+                        sx={{
+                            height: {
+                                md: "23rem",
+                                xs: "20rem"
+                            },
+                            borderRadius: "0.5rem 0.5rem 0 0"
+                        }}
+                        image={firstplace}
                         title="First Place"
                     />
                     <CardContent>
                         <Typography gutterBottom color="secondary" variant="h2" component="h2">
-                            First Place
+                            1st Place
                         </Typography>
                         <Typography component="h3" variant="h3">
                             Rs. 10,000
@@ -48,7 +55,7 @@ export default function Awards() {
                     </CardContent>
                 </Card>
                 <Card sx={{
-                    width: "20rem",
+                    width: "15rem",
                     height: "100%",
                     bgcolor: "secondaryLight.main",
                     color: "primary.main",
@@ -60,13 +67,13 @@ export default function Awards() {
                     }
                 }}>
                     <CardMedia
-                        sx={{ height: 140, borderRadius: "0.5rem 0.5rem 0 0" }}
-                        image={placeholder}
+                        sx={{ height: "20rem", borderRadius: "0.5rem 0.5rem 0 0" }}
+                        image={secondplace}
                         title="First Place"
                     />
                     <CardContent>
                         <Typography gutterBottom variant="h2" component="h2">
-                            Second Place
+                            2nd Place
                         </Typography>
                         <Typography component="h3" variant="h3">
                             Rs. 7,500
@@ -74,7 +81,7 @@ export default function Awards() {
                     </CardContent>
                 </Card>
                 <Card sx={{
-                    width: "20rem",
+                    width: "15rem",
                     height: "100%",
                     bgcolor: "secondaryLight.main",
                     color: "primary.main",
@@ -86,13 +93,13 @@ export default function Awards() {
                     }
                 }}>
                     <CardMedia
-                        sx={{ height: 140, borderRadius: "0.5rem 0.5rem 0 0" }}
-                        image={placeholder}
+                        sx={{ height: "20rem", borderRadius: "0.5rem 0.5rem 0 0" }}
+                        image={thirdplace}
                         title="First Place"
                     />
                     <CardContent>
                         <Typography gutterBottom variant="h2" component="h2">
-                            Third Place
+                            3rd Place
                         </Typography>
                         <Typography component="h3" variant="h3">
                             Rs. 5,000
