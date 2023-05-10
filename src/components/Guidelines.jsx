@@ -42,6 +42,9 @@ export default function Guidelines() {
                 <Alert icon={<NumbersIcon fontSize="large" color="secondary" />} variant="filled" sx={{ bgcolor: "secondaryLight.main", width: "100%" }}>
                     You can use any programming language during the competition.
                 </Alert>
+                <Alert icon={<NumbersIcon fontSize="large" color="secondary" />} variant="filled" sx={{ bgcolor: "secondaryLight.main", width: "100%" }}>
+                    Any misbehaviour or use of external or AI support during the competition time period will lead to disqualification of the team.
+                </Alert>
             </List>
 
         </Box>
