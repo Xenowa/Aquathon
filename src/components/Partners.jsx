@@ -3,7 +3,7 @@ import Card from '@mui/material/Card';
 import CardContent from '@mui/material/CardContent';
 import CardMedia from '@mui/material/CardMedia';
 import Typography from '@mui/material/Typography';
-import iitlogo from "../assets/IIT logo.jpg";
+import codegenlogo from "../assets/Codegen logo.png";
 
 export default function Partners() {
     return (
@@ -16,23 +16,21 @@ export default function Partners() {
             gap: "1rem"
         }} id="partners" bgcolor="white" color="primary.main">
             <Typography color="primary" component="h1" variant="h1" fontWeight="bold" marginTop="1rem" textAlign="center">
-                {/* Official <Typography color="primaryLight.main" component="span" variant="span">Sponsors</Typography> */}
-                Our <Typography color="primaryLight.main" component="span" variant="span">Partners</Typography>
+                Official <Typography color="primaryLight.main" component="span" variant="span">Sponsors</Typography>
             </Typography>
 
             <Box sx={{ display: "flex", justifyContent: "center", flexDirection: "column", gap: "1rem", marginBottom: "1rem" }}>
-                {/* <Typography component="h2" variant="h2" textAlign="center">Official Platinum Partner</Typography> */}
+                <Typography component="h2" variant="h2" textAlign="center">Official Title Partner</Typography>
                 <Box sx={{ display: "flex", justifyContent: "center", flexWrap: "wrap", gap: "1rem" }}>
-                    <Box component="a" href="https://www.iit.ac.lk/" target="_blank">
+                    <Box component="a" href="https://codegen.co.uk/" target="_blank">
                         <img
                             style={{
                                 width: "100%",
                                 maxWidth: "20rem",
-                                height: "100%",
                                 borderRadius: "0.5rem",
                                 objectFit: "cover",
                             }}
-                            src={iitlogo}
+                            src={codegenlogo}
                             alt="Partner 1"
                         />
                     </Box>
