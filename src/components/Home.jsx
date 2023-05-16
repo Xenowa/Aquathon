@@ -37,6 +37,7 @@ export default function Home() {
                 "Dive deep to discover the possibilities"
             </Typography>
             <Button
+                disabled
                 component="a"
                 sx={{ fontSize: "20px" }}
                 variant="outlined"
