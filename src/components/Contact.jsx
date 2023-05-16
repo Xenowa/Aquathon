@@ -188,7 +188,6 @@ export default function Contact() {
                 <Chip sx={{ bgcolor: "primary.main", color: "secondaryLight.main" }} avatar={<Avatar sx={{ bgcolor: "secondary.main" }}>TW</Avatar>} label="Tharana Wanigaratne" />
                 <Chip sx={{ bgcolor: "primary.main", color: "secondaryLight.main" }} avatar={<Avatar sx={{ bgcolor: "secondary.main" }}>TA</Avatar>} label="Taalib Asaf" />
                 <Chip sx={{ bgcolor: "primary.main", color: "secondaryLight.main" }} avatar={<Avatar sx={{ bgcolor: "secondary.main" }}>AM</Avatar>} label="Akshayan Mohandas" />
-                <Chip sx={{ bgcolor: "primary.main", color: "secondaryLight.main" }} avatar={<Avatar sx={{ bgcolor: "secondary.main" }}>AT</Avatar>} label="Ashnica Thiruchelvan" />
                 <Chip sx={{ bgcolor: "primary.main", color: "secondaryLight.main" }} avatar={<Avatar sx={{ bgcolor: "secondary.main" }}>HA</Avatar>} label="Harini Abeysirigunawardena" />
                 <Chip sx={{ bgcolor: "primary.main", color: "secondaryLight.main" }} avatar={<Avatar sx={{ bgcolor: "secondary.main" }}>RG</Avatar>} label="Ryan Gunatilake" />
                 <Chip sx={{ bgcolor: "primary.main", color: "secondaryLight.main" }} avatar={<Avatar sx={{ bgcolor: "secondary.main" }}>YD</Avatar>} label="Yashmitha Dilshan" />
